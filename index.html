@@ -13,82 +13,187 @@
 </head>
 
 <body>
-    <!-- <hr class="top-border">
-     -->
-    <!-- <hr class="m-0 border-top border-5 colr-aiub-blue"> -->
-    <div class="header top-aiub-blue-border">
-        <div class="container my-2">
-            <div class="row">
-                <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12">
-                    <div class="d-flex justify-content-center">
-                        <a class="on-hover-zoom" href="/">
-                            <img class="my-auto" src="/images/AIUB_logo.png" alt="logo" width="100px" height="100px">
-                        </a>
+    <div class="header">
+        <div class="header top-aiub-blue-border">
+            <div class="container my-2">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 col-sm-2 col-xs-12">
+                        <div class="d-flex justify-content-center">
+                            <a class="on-hover-zoom" href="/">
+                                <img class="my-auto" src="/images/AIUB_logo.png" alt="logo" width="100px" height="100px">
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-5 col-md-10 col-sm-10 my-auto ps-5">
-                    <div class="d-flex flex-column align-items-sm-start align-items-center">
-                        <div class="h4 colr-aiub-blue fw-bold font-primary">Department of Computer Science</div>
-                        <div class="h6 text-dark fw-bold font-primary">American International University-Bangladesh</div>
+                    <div class="col-lg-5 col-md-10 col-sm-10 my-auto ps-5">
+                        <div class="d-flex flex-column align-items-sm-start align-items-center">
+                            <div class="h4 colr-aiub-blue fw-bold font-primary">Department of Computer Science</div>
+                            <div class="h6 text-dark fw-bold font-primary">American International University-Bangladesh</div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-6 col-md-12">
-                    <div class="mt-3 d-flex align-items-sm-end align-items-center justify-content-sm-end justify-content-center">
-                        <a class="px-3 on-hover-underline on-hover-zoom" href="">News</a>
-                        <a class="px-0 on-hover-underline on-hover-zoom" href="">Events</a>
-                        <a v class="px-3 on-hover-underline on-hover-zoom" href="">Notices</a>
-                        <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href="http://aiub.edu"><i class="fa-solid fa-building-columns px-1"></i> AIUB</a>
-                        <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href=""><i class="fa-solid fa-right-to-bracket px-1"></i>Login</a>
-                        <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href=""><i class="fa-solid fa-arrow-right-to-bracket px-1"></i>Student Login</a>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="mt-3 d-flex align-items-sm-end align-items-center justify-content-sm-end justify-content-center">
+                            <a class="px-3 on-hover-underline on-hover-zoom" href="">News</a>
+                            <a class="px-0 on-hover-underline on-hover-zoom" href="">Events</a>
+                            <a v class="px-3 on-hover-underline on-hover-zoom" href="">Notices</a>
+                            <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href="http://aiub.edu"><i class="fa-solid fa-building-columns px-1"></i> AIUB</a>
+                            <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href=""><i class="fa-solid fa-right-to-bracket px-1"></i>Login</a>
+                            <a class="btn btn-sm btn-outline-primary mx-1 px-1 on-hover-zoom" href=""><i class="fa-solid fa-arrow-right-to-bracket px-1"></i>Student Login</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <button onclick="topFunction()" id="gototop" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     </div>
-    <hr class="text-muted mt-0">
-    <div class="navbar">
-        <div class="container">
-            <div class="row">
+    <nav>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-home"></i></a></li>
+            <li><a href="">Education <i class="fa-solid fa-caret-down ms-2"></i> </a>
+                <ul>
+                    <li>
+                        <a href=""> Program <i class="fa-solid fa-caret-right float-end me-3"></i></a>
+                        <ul>
+                            <li><a href="#">BSc. CSE <i class="fa-solid fa-caret-right float-end me-3"></i></a>
+                                <ul>
+                                    <li><a href="#">Curriculum</a></li>
+                                    <li><a href="#">Catalog</a></li>
 
+                                </ul>
+                            </li>
+                            <li><a href="#">MSc. CS <i class="fa-solid fa-caret-right float-end me-3"></i></a>
+                                <ul>
+                                    <li><a href="#">Curriculum</a></li>
+                                    <li><a href="#">Catalog</a></li>
+
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="#">Scholarship</a></li>
+                </ul>
+            </li>
+            <li><a href="#">People <i class="fa-solid fa-caret-down ms-2"></i></a>
+                <ul>
+                    <li><a href="#">Faculty Members</a></li>
+                    <li><a href="#">Dept. Administration</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Student Materials</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Distinguish Lecture Series</a></li>
+        </ul>
+    </nav>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-home"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"> <a class="nav-link" href="#">Home </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">  Multilevel click  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"> Dropdown item 1 </a></li>
+                                <li><a class="dropdown-item" href="#"> Dropdown item 2 <i class="icon-arrow"></i> </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Submenu item 1</a></li>
+                                        <li><a class="dropdown-item" href="#">Submenu item 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Submenu item 3 <i class="icon-arrow"></i> </a>
+                                            <ul class="submenu dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Multi level 1</a></li>
+                                                <li><a class="dropdown-item" href="#">Multi level 2</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Submenu item 4</a></li>
+                                        <li><a class="dropdown-item" href="#">Submenu item 5</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#"> Dropdown item 4 </a>
+                            </ul>
+                            </li>
+                    </ul>
+                </div>
             </div>
+        </nav> -->
+
+
+    <div class="container mt-1">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-2">
+                <div class="carousel-item active">
+                    <img src="/images/slider-1.png" class="d-block w-100" alt="aiub campus">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>AIUB Campus</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/slider-2.png" class="d-block w-100" alt="Faculty Members of Department of CS">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Faculty Members of Department of CS</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/slider-3.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>AIUB Computer Science Lab</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
         </div>
     </div>
-    <hr class="text-muted mt-0">
+    <hr class="text-muted mt-3 mb-0">
     <div class="container">
         <div class="row">
-            <div class="col-6 my-auto">
-                <div class="d-flex flex-column justify-content-center">
-                    <div class="h2 colr-aiub-blue">
+            <div class="col-12 col-sm-6 my-auto">
+                <div class="d-flex flex-column justify-content-center mt-2 mt-sm-0">
+                    <div class="fs-3 colr-aiub-blue">
                         Department of Computer Science
                     </div>
                 </div>
             </div>
-            <div class="col-6">
-                <div class="card">
-                    <h5 class="card-header">
+            <div class="col-12 col-sm-6">
+                <div class="card mt-3">
+                    <h5 class="card-header fsc-14 py-1">
                         Vision:
                     </h5>
                     <div class="card-body">
-                        <p class="card-text justify-text">
+                        <p class="card-text justify-text fsc-12">
                             Our vision is to be the preeminent Department of Computer Science through creating recognized professionals who will provide innovative solutions by leveraging contemporary research methods and development techniques of computing that is in line with
                             the national and global context.
                         </p>
                     </div>
                 </div>
                 <div class="card mt-3">
-                    <h5 class="card-header">
+                    <h5 class="card-header fsc-14 py-1">
                         Mission:
                     </h5>
                     <div class="card-body">
-                        <p class="card-text justify-text">
+                        <p class="card-text justify-text fsc-12">
                             The mission of the Department of Computer Science of AIUB is to educate students in a student-centric dynamic learning environment; to provide advanced facilities for conducting innovative research and development to meet the challenges of the modern
                             era of computing, and to motivate them towards a life-long learning process.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-12 my-4 d-flex justify-content-center">
+            <div class="col-12 my-4 d-flex justify-content-center align-items-center">
                 <a class="btn btn-sm btn-outline-primary mx-2 px-2 on-hover-zoom" href="">UG Curriculum</a>
                 <a class="btn btn-sm btn-outline-primary mx-2 px-2 on-hover-zoom" href="">PG Curriculum</a>
                 <a class="btn btn-sm btn-outline-primary mx-2 px-2 on-hover-zoom" href="">Research</a>
@@ -106,7 +211,7 @@
                     </div>
                     <div class="col-8">
                         <div class="fs-5 text-primary fw-bold">Message from Head (Graduate Program)</div>
-                        <div class="fw-lighter"><small>We ever since the Master's Program in Computer Science had been introduced in 2006 .. <a href="#">more</a></small></div>
+                        <div class="fw-lighter fsc-14"><small>We ever since the Master's Program in Computer Science had been introduced in 2006 .. <a href="#">more</a></small></div>
                     </div>
                 </div>
             </div>
@@ -116,8 +221,8 @@
                         <img class="rounded-circle border border-2 p-1 img-fluid" src="/images/headincharge.jpg" alt="PG Head in charge">
                     </div>
                     <div class="col-8">
-                        <div class="fs-5 text-primary fw-bold">Message from Head-ln-Charge(Undergraduate Program)</div>
-                        <div class="fw-lighter"><small>
+                        <div class="fs-5 text-primary fw-bold">Message from Head-ln-Charge (Undergraduate Program)</div>
+                        <div class="fw-lighter fsc-14"><small>
                             Welcome to the department of Computer Science (CS). Computer Science is fundamental to human prosperity, equity, and wellness...<a href="#">more</a>
                         </small>
                         </div>
@@ -134,7 +239,7 @@
                     Learn how our transformative education and multidisciplinary research have nurtured effective global leaders, impacted society and transformed lives for the better.
                 </h6>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8">
                 <div class="border border-1 rounded d-flex justify-content-center p-3 bg-light">
                     <a href="#" class="text-dark text-decoration-none rounded-circle border border-2 p-4 m-1 on-hover-shadow d-flex flex-column align-items-center justify-content-center">
                         <div class="fa-solid fa-4x fa-graduation-cap p-2"></div>
@@ -142,7 +247,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-8 mt-3 mt-sm-0">
                 <div class="border border-1 rounded d-flex justify-content-center p-3 bg-light">
                     <a href="#" class="text-dark text-decoration-none rounded-circle border border-2 p-4 m-1 on-hover-shadow d-flex flex-column align-items-center justify-content-center">
                         <div class="fa-solid fa-4x fa-graduation-cap p-2"></div>
@@ -157,7 +262,7 @@
 
     <div class="container">
         <div class="row gx-5">
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="h3 text-primary fw-bold"><i class="fa-solid pe-2 fa-envelope"></i> CS Notices</div>
                     <h6>
@@ -170,7 +275,7 @@
 
                 <hr class="text-muted mt-0">
                 <div class="row gx-5">
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">03</h4>
@@ -186,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">31</h4>
@@ -202,7 +307,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">28</h4>
@@ -218,7 +323,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">28</h4>
@@ -234,7 +339,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">31</h4>
@@ -250,7 +355,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 mt-2">
+                    <div class="col-12 col-sm-6 mt-2">
                         <div class="row border h-100 on-hover-shadow">
                             <div class="col-3 bg-primary p-1 d-flex flex-column align-items-center justify-content-center">
                                 <h4 class="text-light">28</h4>
@@ -269,7 +374,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4 mt-4 mt-md-0">
                 <div class="d-flex align-items-center justify-content-between">
                     <div class="h3 text-primary fw-bold"><i class="fa-solid pe-2 fa-calendar-check"></i>CS Events</div>
                     <h6>
@@ -343,7 +448,15 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="bg-research mt-4">
+            <div class="d-flex flex-column align-items-end me-5 pt-3">
+                <h2 class="text-light">Research in AIUB</h2>
+                <a class="btn btn-sm btn-danger" href="#">Learn More >></a>
+            </div>
+        </div>
 
+    </div>
 
     <div class="container">
         <hr class="text-muted mt-3">
@@ -362,7 +475,7 @@
             </div>
             <div class="col-12">
                 <div class="row gy-3 h-100">
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews1.png" alt="">
                             <h6 class="text-center"><small class="fw-bold">DR. ANVVARUI. ABEDIN LECTURE SER...</small></h6>
@@ -372,7 +485,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews2.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">DR. ANVVARUI. ABEDIN LECTURE SER...</small></h6>
@@ -382,7 +495,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews3.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">AIUB INSTITUTE OF CONTINUING E...</small></h6>
@@ -392,7 +505,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews4.png" alt="">
                             <h6 class="text-center"><small class="fw-bold">AIUB COMPUTER CLUB (ACC) ORGAN...</small></h6>
@@ -402,7 +515,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews5.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">VOLLEYBALL FINAL OF THE BANGAB...</small></h6>
@@ -412,7 +525,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews6.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">AIUB BOISHAKI ULLASH 1426</small></h6>
@@ -422,7 +535,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews7.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">VOLLEYBALL FINAL OF THE BANGAB..</small></h6>
@@ -432,7 +545,7 @@
                             <span><a href="#" class="d-inline-block btn btn-sm btn-danger p-1 py-0"><small>Read Details</small></a></span>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="border rounded p-2 d-flex flex-column justify-content-center on-hover-shadow">
                             <img class="img-fluid rounded-3" src="/images/csnews8.jpg" alt="">
                             <h6 class="text-center"><small class="fw-bold">DR. ANVVARUI. ABEDIN LECTURE SER...</small></h6>
@@ -446,44 +559,50 @@
             </div>
         </div>
     </div>
-    <hr class="text-muted mt-3">
-    <hr class="text-muted mt-3">
-    <div class="footer">
-        <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-7 d-flex flex-column align-items-center">
-                    <h6 class="text-muted mt-5">Founded in 1994</h6>
-                    <h4 class="border-top border-bottom px-4 py-3 text-primary fw-bold">American International University-Bangladesh</h4>
-                    <div class="w-50 mt-3 self-align-start">
-                        <h6><i class="fa-solid pe-2 fa-location-dot"></i>408/1, Kuratoli, Khilkhet, Dhaka 1229, Bangladesh</h6>
-                        <h6><i class="fa-solid pe-2 fa-phone"></i>8820865, 9890804, 8811749</h6>
-                        <h6><i class="fa-solid pe-2 fa-blender-phone"></i>88-02-8813233</h6>
-                        <h6><i class="fa-solid pe-2 fa-square-envelope"></i>info@aiub.edu</h6>
-                    </div>
-                    <div class="mt-5">
-                        <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/facebook-new.png" /></a>
-                        <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/twitter.png" /></a>
-                        <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/color/35/000000/instagram-new--v1.png" /></a>
-                        <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/google-logo.png" /></a>
-                        <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/linkedin.png" /></a>
-                    </div>
+    <div class="container-fluid">
+        <div class="bg-img-gallery mt-4 border-4 border-primary border-bottom">
+            <div class="d-flex flex-column align-items-end me-5 pt-3">
+                <h2 class="text-light">AIUB Image Gallery</h2>
+                <a class="btn btn-sm btn-danger" href="#">Show Gallery >></a>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 d-flex flex-column align-items-center">
+                <h6 class="text-muted mt-5">Founded in 1994</h6>
+                <h4 class="border-top border-bottom px-4 py-3 text-primary">American International University-Bangladesh</h4>
+                <div class="mt-3 self-align-center">
+                    <h6><i class="fa-solid pe-2 fa-location-dot"></i>408/1, Kuratoli, Khilkhet, Dhaka 1229, Bangladesh</h6>
+                    <h6><i class="fa-solid pe-2 fa-phone"></i>8820865, 9890804, 8811749</h6>
+                    <h6><i class="fa-solid pe-2 fa-blender-phone"></i>88-02-8813233</h6>
+                    <h6><i class="fa-solid pe-2 fa-square-envelope"></i>info@aiub.edu</h6>
+                </div>
+                <div class="mt-5">
+                    <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/facebook-new.png" /></a>
+                    <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/twitter.png" /></a>
+                    <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/color/35/000000/instagram-new--v1.png" /></a>
+                    <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/google-logo.png" /></a>
+                    <a href="#" class="text-dark text-decoration-none on-hover-zoom"><img class="px-1" src="https://img.icons8.com/fluency/35/000000/linkedin.png" /></a>
                 </div>
             </div>
         </div>
-        <div class="d-flex align-items-center justify-content-between px-5 mt-5 mb-4">
-            <div class="h6"><small>&copy 2019 The American International University-Bangladesh</small></div>
-            <h6>
-                <small>
+    </div>
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-between px-5 mt-5 mb-4">
+        <div class="h6"><small>&copy 2019 The American International University-Bangladesh</small></div>
+        <h6>
+            <small>
                     <i class="fa-solid pe-1 fa-handshake-simple"></i>Powered by
                     <a href="#" class="on-hover-underline text-primary">AIUB CS Development Team</a>
                 </small>
-            </h6>
+        </h6>
 
-        </div>
     </div>
 
 
-
+    <script src="/js/bootstrap/bootstrap.bundle.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
